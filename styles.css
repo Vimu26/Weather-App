@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+}
+
+.card {
+    height: 60%;
+    max-height: 600px;
+  width: 50%;
+  max-width: 500px;
+  color : #fff;
+  background: linear-gradient(135deg, #00feba , #5b548a);
+  margin : 150px auto 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search{
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border : 0 ;
+    outline : 0;
+    color :#555;
+    padding: 10px 25px;
+    height : 60px;
+    border-radius : 30px;
+    flex : 1;
+    margin-right: 16px;
+    font-size: 18px;
+    margin-left: 25px
+}
+
+.search-button{
+    border : 0 ;
+    outline : 0;
+    height : 60px;
+    width : 80px;
+    border-radius : 30px;
+    background-color: white;
+    margin-right: 25px
+}
+
+.temp {
+    text-align: center;
+}
+.city {
+    text-align: center;
+}
